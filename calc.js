@@ -28,6 +28,14 @@ reader.question("What would you like to calculate?", function(input){
 		console.log(num1 / num2);
 	} else if(mathSymbol === '|') {
 		console.log(Math.sqrt(num1))
+	} else if(mathSymbol === '&') {
+		console.log(num1 ** 2);
+	} else if(mathSymbol === '^') {
+		console.log(num1 ** num2);
+	} else if(mathSymbol === '>') {
+		console.log(num1 ** 3);
+	} else if(mathSymbol === '%') {
+		console.log(num1 % num2);
 	}
 
 
